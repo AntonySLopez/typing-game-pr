@@ -80,13 +80,8 @@ word {
     transition: border-color 0.3s ease-in-out;
 }
 
-word.marked {
+word.incorrect {
     border-color: var(--red);
-}
-
-word.error {
-    text-decoration: underline;
-    text-decoration-color: red;
 }
 
 .outline{
